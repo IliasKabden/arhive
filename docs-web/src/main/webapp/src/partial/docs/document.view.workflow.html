@@ -10,7 +10,7 @@
   <strong translate="document.view.workflow.no_workflow"></strong>
 </p>
 
-<!-- <form name="startWorkflowForm" class="form-horizontal" novalidate ng-show="!document.route_step && routemodels.length > 0">
+<form name="startWorkflowForm" class="form-horizontal" novalidate ng-show="!document.route_step && routemodels.length > 0">
   <div class="form-group" ng-class="{ 'has-error': !startWorkflowForm.routemodel.$valid && startWorkflowForm.$dirty }">
     <label for="inputRouteModel" class="col-sm-3">
       {{ 'document.view.workflow.workflow_start_label' | translate }}
@@ -37,7 +37,7 @@
       </button>
     </div>
   </div>
-</form> -->
+</form>
 
 <table class="table" ng-repeat="route in routes">
   <caption translate="document.view.workflow.full_name"
