@@ -1,13 +1,4 @@
-/**!
- * ================================================================
- * Teedy patch applied to encode filenames with encodeURIComponent.
- * ================================================================
- *
- * AngularJS file upload directives and services. Supoorts: file upload/drop/paste, resume, cancel/abort,
- * progress, resize, thumbnail, preview, validation and CORS
- * @author  Danial  <danial.farid@gmail.com>
- * @version 12.2.13
- */
+
 
 if (window.XMLHttpRequest && !(window.FileAPI && FileAPI.shouldLoad)) {
   window.XMLHttpRequest.prototype.setRequestHeader = (function (orig) {

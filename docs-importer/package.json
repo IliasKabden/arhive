@@ -1,5 +1,5 @@
 {
-  "name": "teedy-importer",
+  "name": "Kazzinc-importer",
   "version": "1.5.1",
   "description": "Import files",
   "bin": "main.js",

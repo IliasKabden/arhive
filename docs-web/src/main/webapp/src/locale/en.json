@@ -482,9 +482,9 @@
   },
   "feedback": {
     "title": "Give us a feedback",
-    "message": "Any suggestion or question about Teedy? We listen to you!",
+    "message": "Any suggestion or question about Kazzinc? We listen to you!",
     "sent_title": "Feedback sent",
-    "sent_message": "Thank you for your feedback! It will help us make Teedy even better."
+    "sent_message": "Thank you for your feedback! It will help us make Kazzinc even better."
   },
   "import": {
     "title": "Importing",
@@ -577,24 +577,24 @@
   },
   "onboarding": {
     "step1": {
-      "title": "First time?",
-      "description": "If it's your first time on Teedy, click the Next button, otherwise feel free to close me."
+      "title": "Первый раз?",
+      "description": "Если вы впервые, нажмите кнопку «Далее», в противном случае не стесняйтесь закрыть меня."
     },
     "step2": {
-      "title": "Documents",
-      "description": "Teedy is organized in documents and each document contains multiple files."
+      "title": "Документы",
+      "description": "Организован в документах, и каждый документ содержит несколько файлов."
     },
     "step3": {
-      "title": "Files",
-      "description": "You can add files after creating a document or before using this Quick upload area."
+      "title": "Файлы",
+      "description": "Вы можете добавлять файлы после создания документа или перед использованием этой области быстрой загрузки."
     },
     "step4": {
-      "title": "Search",
-      "description": "This is the main way to find your documents back. There is also an advanced search with the magnifier button."
+      "title": "Поиск",
+      "description": "Это основной способ найти ваши документы обратно. Также есть расширенный поиск с помощью кнопки лупы."
     },
     "step5": {
-      "title": "Tags",
-      "description": "Documents can be organized in tags (which are like super-folders). Create them here."
+      "title": "Теги",
+      "description": "Документы могут быть организованы в теги (которые похожи на супер-папки). Создайте их здесь."
     }
   },
   "yes": "Yes",

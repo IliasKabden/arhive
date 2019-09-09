@@ -1,8 +1,5 @@
 'use strict';
 
-/**
- * Teedy application.
- */
 angular.module('docs',
     // Dependencies
     ['ui.router', 'ui.bootstrap', 'dialog', 'ngProgress', 'monospaced.qrcode', 'yaru22.angular-timeago', 'ui.validate',

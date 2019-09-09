@@ -22,9 +22,9 @@ const prefs = new preferences('com.sismics.docs.importer',{
 });
 
 // Welcome message
-console.log('Teedy Importer 1.0.0, https://teedy.io' +
+console.log('Kazzinc Importer 1.0.0, https://teedy.io' +
   '\n\n' +
-  'This program let you import files from your system to Teedy' +
+  'This program let you import files from your system to Kazzinc' +
   '\n');
 
 // Ask for the base URL
@@ -33,7 +33,7 @@ const askBaseUrl = () => {
     {
       type: 'input',
       name: 'baseUrl',
-      message: 'What is the base URL of your Teedy? (eg. https://teedy.mycompany.com)',
+      message: 'What is the base URL of your Kazzinc? (eg. https://teedy.mycompany.com)',
       default: prefs.importer.baseUrl
     }
   ]).then(answers => {
@@ -42,12 +42,12 @@ const askBaseUrl = () => {
 
     // Test base URL
     const spinner = ora({
-      text: 'Checking connection to Teedy',
+      text: 'Checking connection to Kazzinc',
       spinner: 'flips'
     }).start();
     request(answers.baseUrl + '/api/app', function (error, response) {
       if (!response || response.statusCode !== 200) {
-        spinner.fail('Connection to Teedy failed: ' + error);
+        spinner.fail('Connection to Kazzinc failed: ' + error);
         askBaseUrl();
         return;
       }
@@ -82,7 +82,7 @@ const askCredentials = () => {
 
     // Test credentials
     const spinner = ora({
-      text: 'Checking connection to Teedy',
+      text: 'Checking connection to Kazzinc',
       spinner: 'flips'
     }).start();
     request.post({
